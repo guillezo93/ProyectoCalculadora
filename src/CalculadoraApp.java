@@ -76,10 +76,9 @@ public class CalculadoraApp {
                 System.out.println("Resultado de la División = " + resultado);
             }
 
-            default -> {
-                System.out.println("Opción no valida (deberá colocar valor de 1 a 5 y su valor ingresado fue: " + operacion);
+            default -> System.out.println("Opción no valida (deberá colocar valor de 1 a 5 y su valor ingresado fue: " + operacion);
 
-            }
+
         }
 
 
